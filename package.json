@@ -1,25 +1,25 @@
 {
   "name": "react-native-multiplier",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "This is the demo multiplier project demonstrating how we can upload our library to npm",
-  "main": "lib/commonjs/index",
-  "module": "lib/module/index",
-  "types": "lib/typescript/index.d.ts",
-  "react-native": "src/index",
+  "main": "lib/commonjs/index.js",
+  "module": "lib/module/index.js",
+  "types": "lib/typescript/src/index.d.ts",
+  "react-native": "src/index.tsx",
   "source": "src/index",
   "files": [
     "src",
     "lib",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__",
     "android",
     "ios",
     "cpp",
     "react-native-multiplier.podspec",
     "!lib/typescript/example",
     "!android/build",
-    "!ios/build",
-    "!**/__tests__",
-    "!**/__fixtures__",
-    "!**/__mocks__"
+    "!ios/build"
   ],
   "scripts": {
     "test": "jest",
@@ -36,7 +36,10 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/devesh-g-simformsolutions/react-native-multiplier",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devesh-g-simformsolutions/react-native-multiplier.git"
+  },
   "author": "Devesh Goswami <devesh.g@simformsolutions.com> (https://github.com/devesh-g-simformsolutions)",
   "license": "MIT",
   "bugs": {
@@ -63,7 +66,7 @@
     "prettier": "^2.0.5",
     "react": "16.13.1",
     "react-native": "0.63.4",
-    "react-native-builder-bob": "^0.18.0",
+    "react-native-builder-bob": "^0.18.3",
     "release-it": "^14.2.2",
     "typescript": "^4.1.3"
   },
@@ -123,7 +126,7 @@
     "node_modules/",
     "lib/"
   ],
-  "prettier": {
+   "prettier": {
     "quoteProps": "consistent",
     "singleQuote": true,
     "tabWidth": 2,
@@ -145,3 +148,4 @@
     ]
   }
 }
+

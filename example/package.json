@@ -1,8 +1,8 @@
 {
-  "name": "react-native-multiplier-example",
+  "name": "react-native-multiplier",
   "description": "Example app for react-native-multiplier",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.1.1",
+  "private": false,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -17,5 +17,18 @@
     "@babel/runtime": "^7.12.5",
     "babel-plugin-module-resolver": "^4.0.0",
     "metro-react-native-babel-preset": "^0.64.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devesh-g-simformsolutions/react-native-multiplier.git"
+  },
+  "author": "Devesh Goswami <devesh.g@simformsolutions.com> (https://github.com/devesh-g-simformsolutions)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devesh-g-simformsolutions/react-native-multiplier/issues"
+  },
+  "homepage": "https://github.com/devesh-g-simformsolutions/react-native-multiplier#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
