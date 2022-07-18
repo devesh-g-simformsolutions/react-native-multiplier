@@ -1,6 +1,6 @@
 {
   "name": "react-native-multiplier",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "This is the demo multiplier project demonstrating how we can upload our library to npm",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
